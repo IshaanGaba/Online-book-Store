@@ -115,7 +115,7 @@ exports.postsignup=(req,res,next)=>{
         })
         .then(result=>{
             res.redirect('/login');
-            return sendMail(email,"guddu bhai",'Hello, welcome to our service!',
+            return sendMail(email,"Welcome",'Hello, welcome to our service!',
             '<b>Hello, welcome to our service!</b>');
         })
         .catch(err=>{

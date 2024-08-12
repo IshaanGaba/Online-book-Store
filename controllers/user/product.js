@@ -3,7 +3,7 @@ const Product=require('../../models/product');
 const fs=require('fs');
 const path=require('path');
 const PDFDocument=require('pdfkit');
-const stripe=require('stripe')('sk_test_51Pek0IRr8dKa8i0QYKTJ2cQKGfEpwgmrCcp6ZcGimGPZGidP4x5xtixZyqkzP694s3B7TyqJJb13Q2hpKZQ8KDcB00JikVzDDU');
+const stripe=require('stripe')('stripe key');
 const Items_per_page=2;
 
 const addproduct=(req, res, next) => {

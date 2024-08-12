@@ -18,7 +18,7 @@ const app = express();
 
 const csrfProtection=csrf();
 
-const link='mongodb+srv://ishaan:ishaan%4017@node1.fi6vs0b.mongodb.net/?retryWrites=true&w=majority&appName=node1'
+const link='mongo key'
 
 const store=new MongodbStore({
     uri:link,
